@@ -103,10 +103,10 @@ int main(int argc, char *argv[]) {
   // Set base URL to Rest API -> without a slash at the end!
   ci.m_baseUrl = QStringLiteral("https://things.apps.bosch-iot-cloud.com/api/1");
   // Set API token
-  ci.m_api_token = "6804e1c26a49426c8e4d22c707ef4f91";
+  ci.m_api_token = "YOUR API TOKEN";
   // Set credentials
-  ci.m_username = QStringLiteral("Jakob");
-  ci.m_password = QStringLiteral("JakobPw1!");
+  ci.m_username = QStringLiteral("YOUR USERNAME");
+  ci.m_password = QStringLiteral("YOUR PASSWORD");
 
   // Create a new Bosch IoT Connector to handle network requests & reply
   Connector* connector = new Connector(ci, &a);
